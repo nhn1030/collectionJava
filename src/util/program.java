@@ -20,7 +20,7 @@ public class program {
 
         list.clear();
         // clear 메서드 사용
-
+        
         size = list.size();
         // 배열의 인덱스가 0번째로 초기화 되었기 때문에 0을 반환
         // 실제로는 0, 1번째 인덱스에 3과 5가 인덱스의 요소로 저장되어 있으며,

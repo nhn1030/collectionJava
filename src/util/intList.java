@@ -2,6 +2,7 @@ package util;
 
 public class intList {
 
+
     private int[] nums;
     // 정수 배열 멤버 변수 nums를 정의함
     private int current;
@@ -52,3 +53,4 @@ public class intList {
 
 
 }
+
