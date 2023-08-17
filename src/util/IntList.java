@@ -1,13 +1,13 @@
 package util;
 
-public class intList {
+public class IntList {
 
 
     private int[] nums;
     // 정수 배열 멤버 변수 nums를 정의함
     private int current;
     // 정수 변수인 current를 선언하여 현재 배열에 저장된 요소의 수를 추적
-    public intList() {
+    public IntList() {
         nums = new int[3];
         current = 0;
 
