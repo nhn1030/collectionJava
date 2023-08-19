@@ -2,7 +2,7 @@ package util;
 
 public class Program {
     public static void main(String[] args) {
-        ObjectList list = new ObjectList();
+        GList <Integer> list = new GList(); // 꺾음쇄가 들어감으로써, 제네릭을 사용한다고 명명
         // intList 자료형의 참조 변수인 list를 생성
 
         list.add(3);
@@ -29,13 +29,13 @@ public class Program {
         System.out.printf("size : %d\n", size);
 
         list.add(7);
-        int num = (Integer) list.get(0);
+        int num = list.get(0);
         System.out.printf("num : %d\n", num);
 
-        num = (Integer) list.get(2);
-        // 해당 메서드는 index 값이 list의 current 값 보다 크기 때문에
-        // IndexOutOfBoundsException 예외를 반환한다.
-        System.out.printf("num : %d\n", num);
+////        num = list.get(2);
+//        // 해당 메서드는 index 값이 list의 current 값 보다 크기 때문에
+//        // IndexOutOfBoundsException 예외를 반환한다.
+//        System.out.printf("num : %d\n", num);
 
     }
 }
