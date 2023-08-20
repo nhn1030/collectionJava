@@ -1,9 +1,14 @@
 package util;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Program {
     public static void main(String[] args) {
-        GList <Integer> list = new GList(); // 꺾음쇄가 들어감으로써, 제네릭을 사용한다고 명명
+        //GList <Integer> list = new GList(); // 꺾음쇄가 들어감으로써, 제네릭을 사용한다고 명명
         // intList 자료형의 참조 변수인 list를 생성
+
+        List<Integer> list = new ArrayList<>();
 
         list.add(3);
         // 인스턴스 메서드 add 사용 0번째 위치에 3을 저장
