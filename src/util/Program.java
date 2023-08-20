@@ -11,6 +11,10 @@ public class Program {
         list.add(5);
         // 인스턴스 메서드 add 사용 1번째 위치에 5를 저장
 
+        list.add(5);
+
+        list.add(6);
+
 
         int size = list.size();
         // main 함수 내부에 정수형 size를 생성 인스턴스 메서드 size의 값을 대입
